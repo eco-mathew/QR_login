@@ -45,7 +45,7 @@ function checkAccount(){
 		worker_name = "이충헌";
 		iscorrect = 1;
 	}
-	else if(input_un.value == 'bplwr' && input_pw.value == ' '){
+	else if(input_un.value == 'bplwr' && input_pw.value == '987654321'){
 		worker_name = "이우람";
 		iscorrect = 1;
 	}
