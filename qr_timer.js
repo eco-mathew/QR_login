@@ -29,24 +29,12 @@ function createQR(){
 }
 
 function checkAccount(){
-	if(input_un.value == 'bpldw' && input_pw.value == '991130'){
-		worker_name = "임동욱";
-		iscorrect = 1;
-	}
-	else if(input_un.value == 'bpsse' && input_pw.value == '590130'){
+	if(input_un.value == 'bpsse' && input_pw.value == '590130'){
 		worker_name = "신성은";
-		iscorrect = 1;
-	}
-	else if(input_un.value == 'bpchi' && input_pw.value == '910122'){
-		worker_name = "조현일";
 		iscorrect = 1;
 	}
 	else if(input_un.value == 'bpcmj' && input_pw.value == '980521'){
 		worker_name = "추민정";
-		iscorrect = 1;
-	}
-	else if(input_un.value == 'bplwr' && input_pw.value == '123456'){
-		worker_name = "이우람";
 		iscorrect = 1;
 	}
 	else if(input_un.value == 'bpksy' && input_pw.value == '089608'){
@@ -57,6 +45,10 @@ function checkAccount(){
 		worker_name = "이창빈";
 		iscorrect = 1;
 	}
+	else if(input_un.value == 'bppjm' && input_pw.value == '030108'){
+		worker_name = "박정민";
+		iscorrect = 1;
+	}	
 	else{
 		iscorrect = 0;
 	}
