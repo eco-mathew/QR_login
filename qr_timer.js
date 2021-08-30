@@ -52,7 +52,11 @@ function checkAccount(){
 	else if(input_un.value == 'bpyjh' && input_pw.value == '006625'){
 		worker_name = "윤지호";
 		iscorrect = 1;
-	}	
+	}
+	else if(input_un.value == 'bplhb' && input_pw.value == '980507'){
+		worker_name = "이현빈";
+		iscorrect = 1;
+	}
 	else{
 		iscorrect = 0;
 	}
