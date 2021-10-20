@@ -56,6 +56,10 @@ function checkAccount(){
 	else if(input_un.value == 'bpkdh' && input_pw.value == '030403'){
 		worker_name = "강동현";
 		iscorrect = 1;
+	}
+	else if(input_un.value == 'bppjh' && input_pw.value == '590130'){
+		worker_name = "박지환";
+		iscorrect = 1;
 	}	
 	else{
 		iscorrect = 0;
