@@ -33,10 +33,6 @@ function checkAccount(){
 		worker_name = "신성은";
 		iscorrect = 1;
 	}
-	else if(input_un.value == 'bpcmj' && input_pw.value == '980521'){
-		worker_name = "추민정";
-		iscorrect = 1;
-	}
 	else if(input_un.value == 'bpksy' && input_pw.value == '089608'){
 		worker_name = "김세영";
 		iscorrect = 1;
