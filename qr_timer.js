@@ -37,10 +37,6 @@ function checkAccount(){
 		worker_name = "김세영";
 		iscorrect = 1;
 	}	
-	else if(input_un.value == 'bplcb' && input_pw.value == '112233'){
-		worker_name = "이창빈";
-		iscorrect = 1;
-	}
 	else if(input_un.value == 'bpyjh' && input_pw.value == '006625'){
 		worker_name = "윤지호";
 		iscorrect = 1;
@@ -53,10 +49,10 @@ function checkAccount(){
 		worker_name = "강동현";
 		iscorrect = 1;
 	}
-	else if(input_un.value == 'bppjh' && input_pw.value == '590130'){
-		worker_name = "박지환";
+	else if(input_un.value == 'bpchi' && input_pw.value == '910122'){
+		worker_name = "조현일";
 		iscorrect = 1;
-	}	
+	}
 	else{
 		iscorrect = 0;
 	}
