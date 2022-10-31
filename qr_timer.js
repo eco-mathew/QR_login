@@ -32,17 +32,9 @@ function checkAccount(){
 	if(input_un.value == 'bpsse' && input_pw.value == '590130'){
 		worker_name = "신성은";
 		iscorrect = 1;
-	}
-	else if(input_un.value == 'bpksy' && input_pw.value == '089608'){
-		worker_name = "김세영";
-		iscorrect = 1;
 	}	
 	else if(input_un.value == 'bpyjh' && input_pw.value == '006625'){
 		worker_name = "윤지호";
-		iscorrect = 1;
-	}
-	else if(input_un.value == 'bplhb' && input_pw.value == '980507'){
-		worker_name = "이현빈";
 		iscorrect = 1;
 	}
 	else if(input_un.value == 'bpkdh' && input_pw.value == '030403'){
