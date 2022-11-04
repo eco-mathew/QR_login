@@ -37,14 +37,18 @@ function checkAccount(){
 		worker_name = "윤지호";
 		iscorrect = 1;
 	}
-	else if(input_un.value == 'bpkdh' && input_pw.value == '030403'){
-		worker_name = "강동현";
-		iscorrect = 1;
-	}
 	else if(input_un.value == 'bpchi' && input_pw.value == '910122'){
 		worker_name = "조현일";
 		iscorrect = 1;
 	}
+	else if(input_un.value == 'bpjjh' && input_pw.value == '100711'){
+		worker_name = "장재혁";
+		iscorrect = 1;
+	}
+	else if(input_un.value == 'bpomy' && input_pw.value == '357691'){
+		worker_name = "오미연";
+		iscorrect = 1;
+	}	
 	else{
 		iscorrect = 0;
 	}
