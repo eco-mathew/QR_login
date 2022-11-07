@@ -45,10 +45,6 @@ function checkAccount(){
 		worker_name = "장재혁";
 		iscorrect = 1;
 	}
-	else if(input_un.value == 'bpomy' && input_pw.value == '357691'){
-		worker_name = "오미연";
-		iscorrect = 1;
-	}	
 	else{
 		iscorrect = 0;
 	}
